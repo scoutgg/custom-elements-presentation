@@ -6,13 +6,26 @@ class Clock extends HTMLElement {
       <style>
         :host {
           display: block;
-          background: url(https://s3-eu-west-1.amazonaws.com/jujus-staging/test/scout-face.png);
+          background: var(--clock-face, url(https://s3-eu-west-1.amazonaws.com/jujus-staging/test/scout-face.png));
           background-size: cover;
           height: 10em;
           width: 10em;
           border-radius: 50%;
           position: relative;
           margin: 0 auto;
+          background-color: var(--primary-color, #000);
+        }
+        :host::after {
+          boz-sizing: border-box;
+          border: .75em solid var(--circle-color, var(--accent-color, #00b9b9));
+          width: 75%;
+          height: 75%;
+          border-radius: 50%;
+          content: ' ';
+          display: block;
+          position: absolute;
+          top: 5%;
+          left: 5%;
         }
         .seconds, .minutes, .hour {
           position: absolute;
@@ -21,11 +34,12 @@ class Clock extends HTMLElement {
           top: 0;
           left: calc(50% - .2em);
           transform-origin: bottom;
-          background-color: #ffffff;
+          background-color: var(--secondary-color, #fff);
           border-radius: .5em;
+          z-index: 1;
         }
         .seconds {
-          background-color: #00b9b9;
+          background-color: var(--accent-color, #00b9b9);
         }
         .minutes {
           height: 4em;
