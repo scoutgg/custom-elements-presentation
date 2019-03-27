@@ -12,6 +12,7 @@ class Clock extends HTMLElement {
           width: 10em;
           border-radius: 50%;
           position: relative;
+          margin: 0 auto;
         }
         .seconds, .minutes, .hour {
           position: absolute;
@@ -52,7 +53,7 @@ class Clock extends HTMLElement {
    const t = new Date()
    this.shadowRoot.querySelector('.seconds').style.transform = `rotate(${(t.getSeconds()/60)*360}deg)`
    this.shadowRoot.querySelector('.minutes').style.transform = `rotate(${(t.getMinutes()/60)*360}deg)`
-   this.shadowRoot.querySelector('.hour').style.transform = `rotate(${(t.getHours()/60)*360}deg)`
+   this.shadowRoot.querySelector('.hour').style.transform = `rotate(${(t.getHours()/12)*360}deg)`
   }
 }
 
