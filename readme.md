@@ -29,5 +29,8 @@ That's it! 🎉
 # Scout Gaming Group
 Interessert i å jobbe med eller lære mer om Web Components? Send gjerne en epost til [tan@scoutgg.com](mailto:tan@scoutgg.com)!
 
+# Widgets
+Interessert dykke videre inn i Web Components og Custom Elements? Ta en kikk på vårt bibliotek som forenkler mye av prosessen og lar deg bruke flere forskjellige templating språk: http://www.widgetslib.com
+
 # TodoMVC
 Takk til http://todomvc.com/ for eksemplene som ble brukt.
