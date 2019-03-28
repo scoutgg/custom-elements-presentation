@@ -16,13 +16,13 @@ Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter k
 ```
 <!doctype html>
 <html>
-	<head>
-		<title>Hello, what time is it?</title>
-		<script src="https://github.com/scoutgg/custom-elements-presentation/blob/master/scout-clock.element.js"></script>
-	</head>
-	<body>
-		<scout-clock></scout-clock>
-	</body>
+  <head>
+    <title>Hello, what time is it?</title>
+    <script src="https://github.com/scoutgg/custom-elements-presentation/blob/master/scout-clock.element.js"></script>
+  </head>
+  <body>
+    <scout-clock></scout-clock>
+  </body>
 </html>
 ```
 That's it! 🎉
