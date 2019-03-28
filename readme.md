@@ -18,7 +18,7 @@ Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter k
 <html>
   <head>
     <title>Hello, what time is it?</title>
-    <script src="https://github.com/scoutgg/custom-elements-presentation/blob/master/scout-clock.element.js"></script>
+    <script src="https://raw.githubusercontent.com/scoutgg/custom-elements-presentation/master/scout-clock.element.js"></script>
   </head>
   <body>
     <scout-clock></scout-clock>
