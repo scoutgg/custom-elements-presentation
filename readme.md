@@ -27,7 +27,7 @@ Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter k
 ```
 That's it! 🎉
 # Scout Gaming Group
-Interessert i å jobbe med eller lære med om Web Components? Send gjerne en epost til [tan@scoutgg.com](mailto:tan@scoutgg.com)!
+Interessert i å jobbe med eller lære mer om Web Components? Send gjerne en epost til [tan@scoutgg.com](mailto:tan@scoutgg.com)!
 
 # TodoMVC
 Takk til http://todomvc.com/ for eksemplene som ble brukt.
