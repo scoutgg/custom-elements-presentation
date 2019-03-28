@@ -13,7 +13,7 @@ Koden for Custom Elementet ligger under: https://github.com/scoutgg/custom-eleme
 # Eksempel på bruk
 Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter kan du bruke `<scout-clock></scout-clock>` som et helt vanlig HTML-element. Alt som ligger under `:host` i CSS-en kan du justere fra utsiden, samt alle CSS-variabler kan overskrives for å lage egne tema.
 
-```
+```html
 <!doctype html>
 <html>
   <head>
