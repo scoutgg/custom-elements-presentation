@@ -67,7 +67,7 @@ class Clock extends HTMLElement {
    const t = new Date()
    this.shadowRoot.querySelector('.seconds').style.transform = `rotate(${(t.getSeconds()/60)*360}deg)`
    this.shadowRoot.querySelector('.minutes').style.transform = `rotate(${(t.getMinutes()/60)*360}deg)`
-   this.shadowRoot.querySelector('.hour').style.transform = `rotate(${(t.getHours()/12)*360}deg)`
+   this.shadowRoot.querySelector('.hour').style.transform = `rotate(${(t.getHours()/12)*360 + +(((t.getMinutes()/100)*360) / 12)}deg)`
   }
 }
 
