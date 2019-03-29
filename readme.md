@@ -18,7 +18,7 @@ Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter k
 <html>
   <head>
     <title>Hello, what time is it?</title>
-    <script src="https://github.com/scoutgg/custom-elements-presentation/blob/master/scout-clock.element.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/scoutgg/custom-elements-presentation@master/scout-clock.element.js"></script>
   </head>
   <body>
     <scout-clock></scout-clock>
@@ -28,6 +28,9 @@ Alt du behøver å gjøre i din HTML-fil er å inkludere scriptet, og deretter k
 That's it! 🎉
 # Scout Gaming Group
 Interessert i å jobbe med eller lære mer om Web Components? Send gjerne en epost til [tan@scoutgg.com](mailto:tan@scoutgg.com)!
+
+# Widgets
+Interessert dykke videre inn i Web Components og Custom Elements? Ta en kikk på vårt bibliotek som forenkler mye av prosessen og lar deg bruke flere forskjellige templating språk: http://www.widgetslib.com
 
 # TodoMVC
 Takk til http://todomvc.com/ for eksemplene som ble brukt.
